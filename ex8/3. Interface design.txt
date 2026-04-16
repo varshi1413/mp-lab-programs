@@ -1,0 +1,101 @@
+3. Interface design:
+Describes how the software elements, hardware elements, and end-users communicate with one another, it is derived from the analysis model scenario-based elements, flow-oriented elements, and behavioral elements.
+
+4. Component-level design:
+Created by transforming the structural elements defined by the software architecture into a procedural description of the software components using information obtained from the analysis model class-based elements, flow-oriented elements, and behavioral elements
+It is place where quality is fostered.
+
+It provides us with representation of software that can be assessed for quality.
+
+Only way that can accurately translate a customer’s requirements into a finished software product.
+
+It serves as foundation for all software engineering activities.
+
+Without design difficult to assess:
+Risk 
+Test
+Quality
+S/w design is an iterative process through which requirements are translated into a “blueprint” for constructing the s/w. 
+
+As design iteration occur, subsequent refinement leads to design representation at much lower levels of abstraction.
+
+Goal of Design Process:
+The design must implement all of the explicit requirements contained in the analysis model, and it must accommodate all of the implicit requirements desired by the customer.
+
+The design must be a readable, understandable guide for those who generate code and for those who test and subsequently support the software.
+
+The design should provide a complete picture of the software, addressing the data, functional, and behavioral domains from an implementation perspective.
+
+A design should exhibit an architecture that 
+has been created using recognizable architectural styles or patterns, 
+is composed of components that exhibit good design characteristics and 
+can be implemented in an evolutionary fashion
+
+A design should be modular; that is, the software should be logically partitioned into elements or subsystems.
+
+A design should contain distinct representations of data, architecture, interfaces, and components.
+
+A design should lead to data structures that are appropriate for the classes to be implemented and are drawn from recognizable data patterns.
+
+
+A design should lead to components that exhibit independent functional characteristics
+
+A design should lead to interfaces that reduce the complexity of connections between components and with the external environment.
+
+A design should be derived using a repeatable method that is driven by information obtained during software requirements analysis.
+
+A design should be represented using a notation that effectively communicates its meaning.
+
+Hewlett-Packard [Gra87] developed a set of software quality Attributes as FURPS—Functionality, Usability, Reliability, Performance, and Supportability.
+
+Functionality is assessed by evaluating the feature set and capabilities of the program, the generality of the functions that are delivered, and the security of the overall system.
+
+Usability is assessed by considering human factors overall aesthetics, consistency, and documentation.
+
+Reliability is evaluated by measuring the frequency and severity of failure, the accuracy of output results, the mean-time-to-failure (MTTF), the ability to recover from failure, and the predictability of the program.
+Performance is measured by considering processing speed, response time, resource consumption, throughput, and efficiency.
+
+Supportability combines the ability to extend the program (extensibility), adaptability, serviceability—these three attributes represent a more common term, maintainability and in addition, testability, compatibility, configurability, the ease with which a system can be installed, and the ease with which problems can be localized.
+S/W design is both a process and a model.
+
+Design process - sequence of steps that enable the designer to describe all aspects of the software to be built.
+Design model - created for software provides a variety of different views of the computer software.
+
+Principles:
+The design process should not suffer from ‘tunnel vision.’  -  Designer should consider alternative approaches.
+
+The design should be traceable to the analysis model - a single element of the design model often traces to multiple requirements, it is necessary to have a means for tracking how requirements have been satisfied by the design model.
+
+The design should not reinvent the wheel-  use already exists design pattern because time is short and resource are limited.
+The design should “minimize the intellectual distance” between the software and the problem as it exists in the real world. – design should be self-explanatory.
+
+The design should exhibit uniformity and integration – before design work begins rules of styles and format should be defined for a design team. 
+
+The design should be structured to accommodate change
+
+The design should be structured to degrade gently, even when unusual data, events, or operating conditions are encountered. 
+
+Design is not coding, coding is not design. 
+
+The design should be assessed for quality as it is being created, not  after the fact
+
+10. The design should be reviewed to minimize conceptual (semantic) errors.
+In these concepts software engineer to answer the following questions:
+What criteria can be used to partition software into individual components?
+How is function or data structure detail separated from a conceptual representation of the software?
+What uniform criteria define the technical quality of a software design?
+
+Design concepts provide the necessary framework for “to get the thing on right way”.
+
+At the highest level of abstraction – a solution is stated in broad terms using language
+
+At lower level of abstraction – a more detailed description of the solution is provided. Procedural orientation is taken.
+
+Two types of abstraction:
+Procedural abstraction: Sequence of instructions that have a specific and limited function. 
+Ex. Open a door
+open implies long sequence of activities (e.g. walk to the door, grasp knob, turn knob and pull the door, etc).
+
+Data abstraction: collection of data that describes a data object. 
+Ex. Open a door. – door is data object.
+Data abstraction for door would encompass a set of attributes that describe the door. (E.g. door type, swing direction, opening mechanism, etc.)
